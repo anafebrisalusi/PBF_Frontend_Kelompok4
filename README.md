@@ -77,7 +77,7 @@ PBF_KELOMPOK-4/
 ## 🚀 Cara Menjalankan Proyek
 ### 1. Clone Repositori
 ```sh
-git clone https://github.com/anafebrisalusi/PBF_KELOMPOK-4.git
+git clone https://github.com/anafebrisalusi/PBF_Frontend_Kelompok4.git
 cd PBF_KELOMPOK-4
 ```
 
