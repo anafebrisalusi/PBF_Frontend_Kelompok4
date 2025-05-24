@@ -27,40 +27,98 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 
 You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
 ## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
 ### Premium Partners
 
 - **[Vehikl](https://vehikl.com/)**
 - **[Tighten Co.](https://tighten.co)**
+- **[WebReinvent](https://webreinvent.com/)**
 - **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
 - **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
 - **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
+- **[Jump24](https://jump24.co.uk)**
+- **[Redberry](https://redberry.international/laravel/)**
+- **[Active Logic](https://activelogic.com)**
+- **[byte5](https://byte5.de)**
 - **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
 
-## Contributing
+# PBF_KELOMPOK-4
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Repositori ini berisi proyek Pemrograman Berbasis Framework (PBF) yang dikembangkan oleh Kelompok 4.
 
-## Code of Conduct
+## 📌 Teknologi yang Digunakan
+- **Laravel 10** 
+- **Blade & Bootstrap** 
+- **MySQL** (Database)
+- **Postman** (API Testing)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 📂 Struktur Folder
+```
+PBF_KELOMPOK-4/
+├── app/
+├── bootstrap/
+├── config/
+├── database/
+├── public/
+├── resources/
+├── routes/
+├── storage/
+├── tests/
+└── vendor/
+```
 
-## Security Vulnerabilities
+## 🚀 Cara Menjalankan Proyek
+### 1. Clone Repositori
+```sh
+git clone https://github.com/anafebrisalusi/PBF_KELOMPOK-4.git
+cd PBF_KELOMPOK-4
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 2. Install Dependensi
+```sh
+composer install
+npm install
+```
 
-## License
+### 3. Konfigurasi Environment
+Buat file `.env` berdasarkan `.env.example`:
+```sh
+cp .env.example .env
+```
+Lalu atur koneksi database di file `.env`.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 4. Generate Key
+```sh
+php artisan key:generate
+```
+
+### 5. Migrasi Database
+```sh
+php artisan migrate --seed
+```
+
+### 6. Jalankan Server
+```sh
+php artisan serve
+```
+Akses aplikasi di `http://127.0.0.1:8000`
+
+## ✨ Fitur Utama
+- Manajemen Data Mahasiswa dan Dosen
+- Pendaftaran dan Jadwal Sidang
+- Pencatatan Hasil Sidang
+- Notifikasi untuk Mahasiswa dan Dosen
+
+## 📜 Lisensi
+Proyek ini dibuat untuk kepentingan akademik dan dapat digunakan dengan bebas.
+
+---
+
+💡 **Dikembangkan oleh Kelompok 4**
