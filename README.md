@@ -108,20 +108,37 @@ php spark serve
 
 ```
 ## 🌍 Tampilan UI (Screenshots)
+
 ### Login
 ![Image](https://github.com/user-attachments/assets/2374dbfc-689f-42aa-9a62-907473059b36)
+
 ### Registrasi
+
 ![Image](https://github.com/user-attachments/assets/2374dbfc-689f-42aa-9a62-907473059b36)
+
 ### Role Dosen
+
 a. Dashboard Dosen
+
 ![Image](https://github.com/user-attachments/assets/e5a5dfa9-4394-4131-8610-3a3513f0b7f6)
+
 b. Data Mahasiswa
+
 ![Image](https://github.com/user-attachments/assets/250e654e-93ee-4360-9f3c-e012794c6d35)
+
 c. Data Dosen
+
 ![Image](https://github.com/user-attachments/assets/2132b597-fe20-4dc4-865b-604d7c33b380)
+
 d. Jadwal Sidang
+
 ![Image](https://github.com/user-attachments/assets/85ea24fe-633e-4051-b6bb-e391b97ab752)
+
 e. Laporan Hasil Sidang
+
 ![Image](https://github.com/user-attachments/assets/226ec963-79da-483e-b189-adf1753fdaeb)
+
 f. Notifikasi
+
+![Image](https://github.com/user-attachments/assets/9a15e674-879f-4135-a98e-7790f7c2d4e5)
 
