@@ -1,8 +1,22 @@
 # 🎓 Sistem Informasi Sidang Tugas Akhir
 
-Aplikasi berbasis **Laravel 10** untuk mengelola data sidang tugas akhir mahasiswa, seperti data mahasiswa, dosen, jadwal sidang, penilaian, dan notifikasi. Aplikasi ini menggunakan **API backend** dari **CodeIgniter 4**, sehingga semua proses (Create, Read, Update, Delete) dilakukan melalui API.
+Aplikasi berbasis **Web** untuk mengelola data sidang tugas akhir mahasiswa, seperti data mahasiswa, dosen, jadwal sidang, penilaian, dan notifikasi.
 
----
+# 📖 Pengertian Laravel
+
+Laravel adalah alat bantu untuk membuat website yang dibuat dengan bahasa PHP. Laravel bersifat gratis dan menggunakan pola kerja MVC (Model-View-Controller) yang memisahkan data, tampilan, dan logika program. Laravel punya fitur lengkap seperti cara membuat URL yang rapi (routing), pengelolaan database yang mudah (Eloquent), sistem login pengguna (autentikasi), dan banyak fitur lainnya yang memudahkan developer membangun website dengan cepat dan rapi.
+
+
+# 🚪 Teknologi yang Digunakan
+
+| Teknologi         | Fungsi              | Keterangan                                                                 |
+|-------------------|---------------------|-----------------------------------------------------------------------------|
+| Laravel 10        | Frontend Web        | Framework PHP untuk antarmuka admin, dosen, dan mahasiswa                  |
+| CodeIgniter 4 (CI4)| REST API Backend   | Menyediakan endpoint untuk CRUD data sidang, mahasiswa, dosen, dsb        |
+| MySQL             | Database            | Menyimpan seluruh data seperti user, mahasiswa, sidang, hasil, notifikasi |
+| Bootstrap 5       | Styling (CSS)       | Untuk membuat tampilan UI yang responsif dan rapi                         |
+| Postman           | API Testing         | Untuk mengetes endpoint API CI4 secara manual                             |
+| XAMPP / Laragon   | Web Server + MySQL  | Menjalankan server lokal (Apache & MySQL)                                 |
 
 ## 📦 Tutorial Instalasi Laravel
 
