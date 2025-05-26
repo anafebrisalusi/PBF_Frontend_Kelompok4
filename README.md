@@ -54,7 +54,7 @@ http://localhost:8000/
 - Melihat nilai hasil sidang
 - Menerima notifikasi dari dosen
 ```
-### 6. 📁 Struktur Folder Laravel
+### 📁 Struktur Folder Laravel
 ```
 PBF_Frontend_Kelompok4/
 ├── app/
@@ -109,3 +109,4 @@ php spark serve
 ```
 ## 🌍 Tampilan UI (Screenshots)
 ### Login
+![Image](https://github.com/user-attachments/assets/2374dbfc-689f-42aa-9a62-907473059b36)
