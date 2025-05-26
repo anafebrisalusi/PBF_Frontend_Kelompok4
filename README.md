@@ -146,21 +146,25 @@ f. Notifikasi
 
 a. Dashboard Dosen
 
-![Image](https://github.com/user-attachments/assets/a9b7123c-414a-48a9-a7af-5be55cdffdf7)
+![Image](https://github.com/user-attachments/assets/c1421641-19ac-42c7-8e6f-10df4f169f4a)
 
 b. Penilaian Sidang
-
-![Image](https://github.com/user-attachments/assets/c1421641-19ac-42c7-8e6f-10df4f169f4a)
+![Image](https://github.com/user-attachments/assets/8d926671-4427-458d-99c1-24e798256fdd)
 
 c. Mahasiswa Sidang
 
-![Image](https://github.com/user-attachments/assets/8d926671-4427-458d-99c1-24e798256fdd)
+![Image](https://github.com/user-attachments/assets/c184aa8b-25e3-4253-98d8-acd30da7f622)
+
 
 d. Notifikasi
 
-![Image](https://github.com/user-attachments/assets/c184aa8b-25e3-4253-98d8-acd30da7f622)
+![Image](https://github.com/user-attachments/assets/a9b7123c-414a-48a9-a7af-5be55cdffdf7)
 
 ### Role Mahasiswa
 
 a. Dashboard Mahasiswa
 
+![Image](https://github.com/user-attachments/assets/bc995389-3a30-4e3e-8d12-3aa98d3bf7e6)
+
+b. Profil
+![Image](https://github.com/user-attachments/assets/654f887b-1d44-4642-ba7b-e27e94d311e8)
