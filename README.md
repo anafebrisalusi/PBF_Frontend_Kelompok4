@@ -142,3 +142,25 @@ f. Notifikasi
 
 ![Image](https://github.com/user-attachments/assets/9a15e674-879f-4135-a98e-7790f7c2d4e5)
 
+### Role Dosen
+
+a. Dashboard Dosen
+
+![Image](https://github.com/user-attachments/assets/a9b7123c-414a-48a9-a7af-5be55cdffdf7)
+
+b. Penilaian Sidang
+
+![Image](https://github.com/user-attachments/assets/c1421641-19ac-42c7-8e6f-10df4f169f4a)
+
+c. Mahasiswa Sidang
+
+![Image](https://github.com/user-attachments/assets/8d926671-4427-458d-99c1-24e798256fdd)
+
+d. Notifikasi
+
+![Image](https://github.com/user-attachments/assets/c184aa8b-25e3-4253-98d8-acd30da7f622)
+
+### Role Mahasiswa
+
+a. Dashboard Mahasiswa
+
