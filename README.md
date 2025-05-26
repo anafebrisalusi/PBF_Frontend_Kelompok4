@@ -110,3 +110,7 @@ php spark serve
 ## 🌍 Tampilan UI (Screenshots)
 ### Login
 ![Image](https://github.com/user-attachments/assets/2374dbfc-689f-42aa-9a62-907473059b36)
+### Registrasi
+![Image](https://github.com/user-attachments/assets/2374dbfc-689f-42aa-9a62-907473059b36)
+### Role Dosen
+
