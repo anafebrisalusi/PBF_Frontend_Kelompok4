@@ -38,18 +38,22 @@ DB_DATABASE=sistem_sidangakhir
 DB_USERNAME=root
 DB_PASSWORD=
 ```
+### 3. Menghubungkan Laravel dengan Database
+```
+php arisan migrate
+``` 
 
-### 3. Jalankan Laravel
+### 4. Jalankan Laravel
 ```bash
 php artisan serve
 ```
 
-### 4. Akses di Browser
+### 5. Akses di Browser
 ```bash
 http://localhost:8000/
 ```
 
-### 5. Fitur Utama
+### 6. Fitur Utama
 ```
 ✅ Admin
 - Kelola data mahasiswa
