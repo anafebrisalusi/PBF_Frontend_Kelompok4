@@ -130,9 +130,9 @@ php spark serve
 
 ![Image](https://github.com/user-attachments/assets/2374dbfc-689f-42aa-9a62-907473059b36)
 
-### Role Dosen
+### Role Admin
 
-a. Dashboard Dosen
+a. Dashboard Admin
 
 ![Image](https://github.com/user-attachments/assets/e5a5dfa9-4394-4131-8610-3a3513f0b7f6)
 
