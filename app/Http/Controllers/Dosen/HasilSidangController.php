@@ -5,15 +5,19 @@ namespace App\Http\Controllers\Dosen;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\HasilSidang;
+use App\Models\Sidang;
 
 class HasilSidangController extends Controller
 {
     public function index()
     {
-        // Ambil data hasil sidang dengan relasi ke sidang dan mahasiswa
-        $penilaian = HasilSidang::with('sidang.mahasiswa')->get();
+        $nidn = session('NIDN');
 
-        return view('dosen.penilaian.index', compact('penilaian'));
+        $sidang = Sidang::where('NIDN', $nidn)
+            ->with(['mahasiswa', 'hasil'])
+            ->get();
+
+        return view('dosen.penilaian.index', compact('sidang'));
     }
 
     public function edit($id_hasil)
@@ -29,7 +33,7 @@ class HasilSidangController extends Controller
             'catatan' => 'nullable|string|max:255',
         ]);
 
-        $hasil = \App\Models\HasilSidang::findOrFail($id_hasil);
+        $hasil = HasilSidang::findOrFail($id_hasil);
         $hasil->update([
             'nilai' => $request->nilai,
             'catatan' => $request->catatan,
@@ -39,24 +43,24 @@ class HasilSidangController extends Controller
     }
 
     public function create($id_sidang)
-{
-    return view('dosen.penilaian.create', compact('id_sidang'));
-}
+    {
+        return view('dosen.penilaian.create', compact('id_sidang'));
+    }
 
-public function store(Request $request)
-{
-    $request->validate([
-        'id_sidang' => 'required|exists:sidang,id_sidang',
-        'nilai' => 'required|numeric|min:0|max:100',
-        'catatan' => 'nullable|string|max:255',
-    ]);
+    public function store(Request $request)
+    {
+        $request->validate([
+            'id_sidang' => 'required|exists:sidang,id_sidang',
+            'nilai' => 'required|numeric|min:0|max:100',
+            'catatan' => 'nullable|string|max:255',
+        ]);
 
-    HasilSidang::create([
-        'id_sidang' => $request->id_sidang,
-        'nilai' => $request->nilai,
-        'catatan' => $request->catatan,
-    ]);
+        HasilSidang::create([
+            'id_sidang' => $request->id_sidang,
+            'nilai' => $request->nilai,
+            'catatan' => $request->catatan,
+        ]);
 
-    return redirect('/dosen/penilaian')->with('success', 'Nilai berhasil disimpan.');
-}
+        return redirect('/dosen/penilaian')->with('success', 'Nilai berhasil disimpan.');
+    }
 }
