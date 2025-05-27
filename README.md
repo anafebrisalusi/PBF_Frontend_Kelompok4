@@ -40,7 +40,7 @@ DB_PASSWORD=
 ```
 ### 3. Menghubungkan Laravel dengan Database
 ```
-php arisan migrate
+php artisan migrate
 ``` 
 
 ### 4. Jalankan Laravel
